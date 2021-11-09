@@ -66,3 +66,14 @@
         position: relative;
 }
 }
+
+.section-restaurants{
+    background-color: $colour-fourth;
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    .section-heading{
+        align-items:stretch;
+    }
+}

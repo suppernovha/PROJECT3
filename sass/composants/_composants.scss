@@ -66,3 +66,66 @@
     font-size: 45px;
     padding-right: 65px;
 }
+
+.restaurant-prev{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    background-image: url("images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg");
+
+    width: 90%;
+    height: 650px;
+    margin-bottom: 60px;
+    margin-left: 50px;
+
+    border-radius: 40px 40px 40px 40px;
+
+    &__description{
+        position: absolute;
+        bottom: 0px;
+        right: 0px;
+        width: 100%;
+        height: 200px;
+
+        border-radius: 0px 0px 40px 40px;
+        background-color: white;   
+    } 
+    &__first{
+        background-image: url("images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg");
+        @include background-size;
+    }
+    &__second{
+        background-image: url("images/restaurants/stil-u2Lp8tXIcjw-unsplash.jpg");
+        background-size: 100%;
+        background-position-y: -400px;
+    }
+    &__third{
+        background-image: url("images/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg");
+        @include background-size;
+    }
+    &__fourth{
+        background-image: url("images/restaurants/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg");
+        @include background-size;
+    }
+    }
+
+.description{
+    &__title{
+        font-size: 47px;
+        margin-left: 40px;
+        margin-bottom: 15px;
+    }
+    &__localisation{
+        font-size: 43px;
+        font-weight: lighter;
+        margin-left: 40px;
+        margin-top: 0px;
+    }
+    &__likesicon{
+        font-size: 65px;
+        position: absolute;
+        bottom: 80px;
+        right: 50px;
+
+    }
+}
