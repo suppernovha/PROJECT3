@@ -1,0 +1,14 @@
+/* Règles communes */
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    margin: auto;
+    margin-top: 160px;
+}
+
+
