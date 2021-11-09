@@ -153,7 +153,7 @@ a {
 .description__title {
   font-size: 47px;
   margin-left: 40px;
-  margin-bottom: 15px;
+  margin-bottom: 0px;
 }
 
 .description__localisation {
@@ -168,6 +168,15 @@ a {
   position: absolute;
   bottom: 80px;
   right: 50px;
+}
+
+.fa-utensils {
+  font-size: 35px;
+  margin-right: 11px;
+}
+
+.fa-hands-helping {
+  font-size: 30px;
 }
 
 /* Header */
@@ -276,5 +285,40 @@ a {
   -webkit-box-align: stretch;
       -ms-flex-align: stretch;
           align-items: stretch;
+}
+
+.footer {
+  background-color: #3a3939;
+  height: 530px;
+  color: #e7e4e4;
+  padding-left: 55px;
+  padding-top: 30px;
+}
+
+.footer__heading {
+  margin-top: Opx;
+  font-size: 46px;
+  font-family: 'Shrikhand';
+  font-style: italic;
+}
+
+.footer__list {
+  list-style-type: none;
+  padding-left: 0px;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.footer__list p {
+  margin-bottom: 0px;
+  margin-top: 20px;
+}
+
+.footer__list__link {
+  font-size: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 /*# sourceMappingURL=main.css.map */

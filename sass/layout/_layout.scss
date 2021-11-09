@@ -77,3 +77,31 @@
         align-items:stretch;
     }
 }
+
+.footer{
+    background-color: rgb(58, 57, 57);
+    height: 530px;
+    color: rgb(231, 228, 228);
+    padding-left: 55px;
+    padding-top: 30px;
+    &__heading{
+        margin-top: Opx;
+        font-size: 46px;
+        font-family: 'Shrikhand';
+        font-style: italic;
+    }
+    &__list{
+        list-style-type: none;
+        padding-left: 0px;
+        align-items: flex-start;
+        p{
+        margin-bottom: 0px;
+        margin-top: 20px;
+        }
+        &__link{
+            
+            font-size: 40px;
+            display: flex;
+        }
+    }
+}
