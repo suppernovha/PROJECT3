@@ -1,0 +1,36 @@
+.button{
+    padding-right: 50px;
+    padding-left: 50px;
+        font-size: 40px;
+            box-shadow: 0px 8px 30px rgb(196, 194, 194);
+    &--colour{
+        color: white;
+        background-color: $colour-secondary;
+        border-radius: 90px 90px 90px 90px;
+    }
+    &--basic{
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        width: 94%;
+        height: 185px;
+        padding-left: 90px;
+        color: black;
+        background-color: $colour-fourth;
+        border-radius: 60px 60px 60px 60px;
+        font-size: 42px;
+        font-weight: bold;
+    }
+    &__icon{
+        color: rgb(112, 111, 111);
+        font-size: 43px;
+    }
+    &__link{
+        text-decoration: none;
+        height: 185px;
+        li:hover{
+            background-color: lighten($colour-primary, 35%);
+        }
+}
+}
+
