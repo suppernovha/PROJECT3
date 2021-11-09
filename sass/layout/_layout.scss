@@ -55,3 +55,14 @@
     }
 }
 }
+
+.section-fonctionnement{
+    &__list{
+        padding-left: 90px;
+        height: 840px;
+    }
+    &__button{
+        margin-bottom: 65px;
+        position: relative;
+}
+}
